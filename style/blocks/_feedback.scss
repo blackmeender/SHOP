@@ -1,0 +1,85 @@
+.feedback {
+    background-image: url("../img/subscribe-bgi.jpg");
+    border-image-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 155px;
+    background-color: #f4f4f4;
+
+    @media (max-width: 1180px) {
+        padding-top: 64px;
+        padding-bottom: 140px;
+    }
+
+    @media (max-width: 775px) {
+        padding-top: 64px;
+        padding-bottom: 109px;
+    }
+}
+.wrapper-feedback {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1180px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.reviews {
+    width: 360px;
+    text-align: center;
+
+    @media (max-width: 775px) {
+        margin-bottom: 59px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .reviews {
+        margin-bottom: 48px;
+    }
+
+
+}
+.reviews-photo {
+    margin-bottom: 30px;
+}
+.reviews-text {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+.sub {
+    width: 560px;
+    text-align: center;
+    padding: 0 93px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sub-title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #222224;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+.sobscribe-form {
+    display: flex;
+    justify-content: center;
+}
+.subscribe-field {
+    border: none;
+    padding: 18px;
+    border-radius: 23px 0 0 32px;
+    background-color: #E1E1E1;
+}
+.subscribe-button {
+    border: none;
+    border-radius: 0 23px 23px 0;
+    background-color: #F16D7F;
+    padding: 18px; 
+}
