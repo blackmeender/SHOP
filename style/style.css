@@ -240,7 +240,7 @@
   font-size: 14px;
 }
 
-.cart-header {
+.cart-header, .cart .cart-row {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
@@ -1129,6 +1129,10 @@ body {
   line-height: 19px;
   color: #F16D7F;
   margin-left: 18px;
+}
+
+.number {
+  margin-left: 0;
 }
 
 .products-overlay {
